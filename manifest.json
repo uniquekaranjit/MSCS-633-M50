@@ -1,0 +1,15 @@
+{
+  "name": "Biox Systems \u2014 QR Code Generator",
+  "version": "1.0.0",
+  "description": "Generate QR codes from URLs via CLI or Tkinter GUI.",
+  "author": "Unique Karanjit",
+  "license": "MIT",
+  "created": "2025-09-20T21:37:34Z",
+  "entry_points": {
+    "cli": "qr_generator.py"
+  },
+  "dependencies": [
+    "qrcode[pil]>=7.4.2"
+  ],
+  "python": ">=3.8"
+}
